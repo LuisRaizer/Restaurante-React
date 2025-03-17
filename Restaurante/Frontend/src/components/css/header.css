@@ -1,0 +1,32 @@
+.header {
+    background-color: #FF4500;
+    color: #FFFFFF;
+    text-align: center;
+    z-index: 1000;
+}
+
+.title {
+    color: #FFD700;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+.navList {
+    padding: 0;
+    margin: 0;
+}
+
+.navItem {
+    margin: 0 15px;
+}
+
+.navLink {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navLink:hover {
+    color: #ffee00;
+}

@@ -1,0 +1,86 @@
+.novo-pedido {
+    padding: 20px;
+    border: 1px solid #c4c4c4;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 3px;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+.novo-pedido div {
+    margin: 10px 0;
+}
+
+.novo-pedido h2 {
+    font-family: 'Rest';
+    font-size: 5em;
+    color: #9c2a00;
+    margin: 10px;
+    text-align: center;
+}
+
+select {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.novo-pedido li:hover {
+    background: #f1f1f1;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.novo-pedido button {
+    padding: 10px 20px;
+    background: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.novo-pedido button:hover {
+    background: #e63900;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.item button {
+    background: #dc3545;
+}
+
+.item button:hover {
+    background: #c82333;
+}

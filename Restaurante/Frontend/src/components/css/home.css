@@ -1,0 +1,148 @@
+.main-content {
+    background-image: url('../assets/Restaurante.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 100px;
+    font-family: Verdana, sans-serif;
+
+}
+
+.main-content section h2{
+    font-family: "rest2";
+    font-size: 3.5em;
+    color: #9c2a00;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    border-radius: 3%;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+    height: 5px;
+    background-color: #ff0000;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #fff9da;
+}
+
+div{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Rest';
+    src: url('../assets/Hot Restaurant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rest2';
+    src: url('../assets/Restaurant.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Menu';
+    src: url('../assets/Breathe-Press.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: rgba(255, 69, 0);
+    color: #FFFFFF;
+    padding: 1px;
+    text-align: center;
+    font-size: 2em;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'rest2', sans-serif;
+    color: #FFD700;
+    margin: 5px;
+    font-weight: bold;
+}
+
+header p{
+    font-family: 'rest', sans-serif;
+    margin: 5px;
+}
+
+section {
+    font-size: 1.1em;
+    padding: 2px;
+    margin: 1px auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section p, section ul {
+    color: #333333;
+    background-color: rgba(255, 255, 255, 0.6);
+    max-width: 500px;
+    border-radius: 5%;
+    font-size: 1.12em;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.menu-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.menu-button:hover{
+    background-color: #FF6347;
+}
+
+.menu-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.menu-link h2{
+    font-family: "rest2";
+    font-size: 5em;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.menu-link p{
+    background-color: transparent;
+}
+
+.menu h2{
+    margin: 1px;
+}

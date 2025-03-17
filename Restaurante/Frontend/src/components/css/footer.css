@@ -1,0 +1,24 @@
+footer {
+    background-color: #9c2a00;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 2px 0;
+}
+
+footer p:first-child {
+    color: #FFD700;
+}
+
+footer p:last-child {
+    color: #ff8262;
+}
+
+footer a{
+    color: #eeff00;
+}
