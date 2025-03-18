@@ -1,10 +1,10 @@
 const express = require('express');
-const { EnviarMensagem, GetMensagens } = require('./controllers/pedidoController.js');
+const { EnviarMensagem, GetMensagens } = require('../controllers/ContatoController.js');
 
 const router = express.Router();
 
-router.post('/contact', EnviarMensagem);
+router.post('/contato', EnviarMensagem);
 
-router.get('/contacts', GetMensagens);
+router.get('/contato', GetMensagens);
 
 module.exports = router;

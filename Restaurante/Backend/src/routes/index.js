@@ -1,7 +1,11 @@
 const express = require('express');
 const router = express.Router();
-rotasContato = require('./rotasContato')
+const rotasContato = require('./rotasContato')
+const rotasPedido = require('./rotasPedido')
+const rotasMenu = require('./rotasMenu')
 
 router.use(rotasContato);
+router.use(rotasPedido);
+router.use(rotasMenu);
 
 module.exports = router;

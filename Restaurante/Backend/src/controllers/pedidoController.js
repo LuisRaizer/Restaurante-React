@@ -2,7 +2,7 @@ const prisma = require('../prismaClient');
 
 
 
-const GetPedidos = async (res) => {
+const GetPedidos = async (req, res) => {
     try {
         const orders = await prisma.order.findMany();
         res.json(orders);
